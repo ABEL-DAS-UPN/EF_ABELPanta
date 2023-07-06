@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap");
+
+.comentarios {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  background-color: #cffde1;
+  font-family: "Dancing Script", cursive;
+}
+.titulo {
+  background-color: #cffde1;
+  text-align: center;
+  font-family: "Tilt Prism", cursive;
+  font-size: 4rem;
+}
+
+.comentario {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comentario .nombre {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.comentario .texto {
+  color: #666;
+  line-height: 1.4;
+}
+
+
+.padre {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("/imagenes/fondo-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 1rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+footer {
+  background: #cffde1;
+  width: 100%;
+  overflow: auto;
+}
+.itemFooter {
+  color: black;
+}
+.icon-text {
+  width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  margin: 4%;
+}
+
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+}
+.social {
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: #000000;
+}

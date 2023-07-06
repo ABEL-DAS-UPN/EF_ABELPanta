@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="imagenes/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos/estilos-login.css" />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="imagenes/4525698.ico" type="image/x-icon">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  </head>
+
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Hogar 4 patas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Refugios <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acercaDe.html">Conocenos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Registrate</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              QUE ESTAS BUSCANDO?
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <div class="padre">
+      <div class="central">
+        <div class="izquierda">
+          <h1 class="text-reg">Registrate</h1>
+
+          <div class="bolita">
+            <img
+              class="Ellipse4"
+              style="border-radius: 9999px"
+              src="imagenes/abel.jpg"
+            />
+          </div>
+          <div>
+            <p class="texto">Abel Panta Chira</p>
+          </div>
+        </div>
+
+        <form class="cajita">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idnombre"
+              aria-describedby=""
+              placeholder="Ingresa tu Nombre"
+            />
+            <small id="nombreHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idApellido"
+              aria-describedby=""
+              placeholder="Ingresa tu Apellido"
+            />
+            <small id="ApellidoHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">DNI</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idDNI"
+              aria-describedby=""
+              placeholder="Ingresa tu DNI"
+            />
+            <small id="DNIHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idCorreo"
+              aria-describedby=""
+              placeholder="Ingresa tu Correo"
+            />
+            <small id="CorreoHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Telefono</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idTelefono"
+              aria-describedby=""
+              placeholder="Ingresa tu Telefono"
+            />
+            <small id="TelefonoHelp" class="form-text text-muted"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Direccion</label>
+            <input
+              type="text"
+              class="form-control"
+              id="idnDireccion"
+              aria-describedby=""
+              placeholder="Ingresa tu Direccion"
+            />
+            <small id="DireccionHelp" class="form-text text-muted"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <h3 class="Conocenos">Conocenos</h3>
+          <ul class="footer-nav">
+            <li class="itemFooter"><a href="index.html">Contacto</a></li>
+            <li class="itemFooter"><a href="#">Acerca de nosotros</a></li>
+            <li class="itemFooter"><a href="#">Sedes</a></li>
+            <li class="itemFooter"><a href="#">Empresa</a></li>
+          </ul>
+        </div>
+        <div class="icon-text-text">
+          <h3 class="Conocenos">Nuestras Redes</h3>
+          <ul class="social">
+            <li>
+              <a target="_blank" href="#"><i class="fa fa-envelope-o"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>

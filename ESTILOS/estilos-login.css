@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.padre {
+  display: flex;
+  background-image: url("/imagenes/fondo-login.jpg");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text-reg {
+  color: white;
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+  font-family: "Tilt Prism", cursive;
+  font-size: 5rem;
+}
+.central {
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #0000004b;
+  width: 65%;
+}
+izquierda {
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.bolita {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  height: 40%;
+}
+.Ellipse4 {
+  width: 60%;
+  height: 90%;
+}
+.texto {
+  color: white;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  margin-left: 10%;
+}
+
+.cajita {
+  padding: 2rem;
+  margin: 1.5rem 2rem 5rem 2rem;
+  width: 50%;
+
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 5px;
+}

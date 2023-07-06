@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: #ffd4d4;
+  display: flex;
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.titulo {
+  background-color: #cffde1;
+  text-align: center;
+  font-family: "Tilt Prism", cursive;
+  font-size: 4rem;
+}
+.top6 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 2rem;
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Conocenos {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.img-slider {
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  animation: carouselAnimation 10s infinite;
+}
+
+.carousel-slide img {
+  width: 33.33%;
+  height: 100%;
+}
+
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-50%);
+  }
+  66.66% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.postres {
+  display: flex;
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ddefbb,
+    #ffeeee
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media (min-width: 768px) {
+  .postres {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+  }
+  .Conocenos {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+  }
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+
+  icon-text {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .icon-text-icon {
+    float: left;
+    width: 20%;
+    margin: 4%;
+  }
+
+  .icon-text-text {
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+  }
+}
+
+@media (min-width: 950px) {
+  .postres {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+  }
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+user agent stylesheet img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+footer {
+  background: #ffd4d4;
+  width: 100%;
+  overflow: auto;
+}
+.itemFooter {
+  color: black;
+}
+.icon-text {
+  width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  margin: 4%;
+}
+
+.icon-text-text {
+  float: left;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+}
+.social {
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: #c3d7df;
+}
+.social li i {
+  color: black;
+}
